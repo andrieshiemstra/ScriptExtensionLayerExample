@@ -345,7 +345,7 @@ fn init_quickjs() -> QuickJsRuntimeFacade {
     let tspp = TypeScriptPreProcessor::new(TargetVersion::Es2020, false, false);
     // a filesystem module loader which loads modules form ./modules
     let fsml = FileSystemModuleLoader::new("./modules");
-    // a http module loader whioch is allowed to load modules via https only from github.com
+    // a http module loader which is allowed to load modules via https only from github.com
     let html = HttpModuleLoader::new()
         .secure_only()
         .allow_domain("https://github.com");
