@@ -1,0 +1,16 @@
+[package]
+name = "my_app"
+version = "0.1.0"
+authors = ["Andries Hiemstra <andries@hiemstra-software.nl>"]
+edition = "2018"
+
+[dependencies]
+tokio = "1"
+actix-web = "4.0.0-rc.3"
+lazy_static = "1.4.0"
+log = "0.4"
+simple-logging = "2"
+quickjs_runtime = "0.7.1"
+hirofa_utils = "0.4"
+green_copper_runtime =  { git = 'https://github.com/HiRoFa/GreenCopperRuntime', branch="main", features = ["com", "features", "db"], default-features=false}
+typescript_utils = {git="https://github.com/HiRoFa/typescript_utils"}
