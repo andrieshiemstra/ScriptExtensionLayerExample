@@ -380,8 +380,10 @@ SCRIPT_RT
 ...
 ```
 
-## Final thoughts
+## Wrapping up
 
-I hope this gives you an idea of how to implement a javascript or typescript engine in your rust project.
+I hope this gives you an idea of how to implement a javascript or typescript engine in your rust project. When going forward you may want to look at doing things async and awaiting the resulting promises instaed of firing sync events.
+
+Have fun!
 
 
